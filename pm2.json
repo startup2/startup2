@@ -1,0 +1,15 @@
+{
+  "apps": [{
+      "name": "ciat-orientdb",
+      "script": "app.coffee",
+      "watch": false,
+      "ignore_watch": ["node_modules", "log"],
+      "exec_mode": "worker",
+      "instances": 1,
+      "log_date_format": "YYYY-MM-DD HH:mm:ss",
+      "error_file": "log/err.log",
+      "out_file": "log/out.log",
+      "log_file": "log/console.log",
+      "merge_logs": true
+  }]
+}

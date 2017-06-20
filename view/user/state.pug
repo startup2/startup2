@@ -1,0 +1,6 @@
+extends ../layout
+block content
+  form(action='/user/state' method='post')
+    input(type='text' name='username' placeholder='username')
+    input(type='text' name='state' placeholder='state')
+    input(type='submit')

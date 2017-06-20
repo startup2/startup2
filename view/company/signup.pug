@@ -1,0 +1,6 @@
+extends ../layout
+block content
+  form(action='/company/signup' method='post')
+    input(type='text' name='companyID' placeholder='companyID')
+    input(type='text' name='displayName' placeholder='displayName')
+    input(type='submit')
